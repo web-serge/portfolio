@@ -113,7 +113,7 @@ export const About = () => {
                             <span>Hire me</span>
                             <span>Hire me <FontAwesomeIcon icon={faPhoneVolume}/></span>
                         </Button>
-                        <Button as={'a'}>
+                        <Button as={'a'} href={'https://drive.google.com/file/d/151-yJL-ra5zTGF4BrDen2s1uKqVxa-P1/view?usp=sharing'} target={'_blank'}>
                             <span>Download CV</span>
                             <span>Download <FontAwesomeIcon icon={faDownload}/></span>
                         </Button>
