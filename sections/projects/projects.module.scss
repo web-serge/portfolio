@@ -1,0 +1,59 @@
+.projects {
+  padding: 10rem 0;
+  background-color: rgba(247, 247, 247, 0.56);
+
+  @media (max-width: 767px) {
+    padding: 5rem 0;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__stack {
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 1.5rem var(--color-shadow);
+  }
+
+  &__tabContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5rem;
+    padding-top: 3rem;
+
+    @media screen and (max-width: 900px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__link {
+    transition: .3s;
+    margin-right: 4rem;
+    border-bottom: 3px solid var(--color-shadow);
+
+    &:hover {
+      opacity: .7;
+    }
+
+    & svg {
+      transition: .3s;
+      color: inherit;
+      animation: feed 1s ease-in-out infinite;
+    }
+
+    &:hover svg {
+      transform: translateX(.5rem);
+    }
+  }
+}
+
+@keyframes feed {
+  0% {opacity: .6}
+  50% {opacity: 1}
+  100% {opacity: .6}
+}

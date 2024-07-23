@@ -1,0 +1,19 @@
+@forward 'fonts/fonts';
+
+:root {
+  --font-family-primary: "Josefin Sans";
+
+  --line-height-s: 16px;
+  --line-height-m: 1.5;
+  --line-height-l: 36px;
+
+  --font-size-xs: 0.75rem;
+  --font-size-s: 0.875rem;
+  --font-size-m: 1.8rem;
+  --font-size-l: 2.2rem;
+  --font-size-xl: 3.3rem;
+  --font-size-xxl: 9.2rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+}
